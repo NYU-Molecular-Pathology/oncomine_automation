@@ -40,5 +40,8 @@ The automated workflow to generate quality control plots/reports and select vari
 2. copy basecall QC matrix files from **/MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data** to **amplicon.dropout.dropoff**
 3. get a copy of the myeloseq worksheet for the run from the **MOLECULAR LAB ONLY/NYU-MyeloSeqer/Worksheets-Wetlab** folder
 4. drop the worksheet to the **worksheet.dropoffs** subfolder under the IonTorrent folder on the Molecular shared drive
-5. kickstart the workflow to generate QC plots/reports, to filter and select confident calls, and to save variants in a csv and xlsx formats
-6. copy CSV and dropout reports to the **/MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data**
+
+**Note**: the workflow automatically kickstart in a few seconds. It takes up to 10~20 minutes to generate QC plots/reports, 
+to filter and select confident calls, and to save variants in a csv and excel format
+
+5. copy CSV and dropout reports to the **/MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data**
