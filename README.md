@@ -34,7 +34,7 @@ The automated workflow to generate quality control plots/reports and select vari
 |- reports
 ```
 
-## Simplified step by step guide
+## Step by step guide to generate MyeloSeq automated report
 
 1. get a copy of the myeloseq worksheet for the run from the **MOLECULAR LAB ONLY/NYU-MyeloSeqer/Worksheets-Wetlab** folder
 2. drop the worksheet to the **worksheet.dropoffs** subfolder under the IonTorrent folder on the Molecular shared drive
