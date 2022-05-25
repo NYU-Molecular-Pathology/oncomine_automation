@@ -36,7 +36,9 @@ The automated workflow to generate quality control plots/reports and select vari
 
 ## Step by step guide to generate MyeloSeq automated report
 
-1. get a copy of the myeloseq worksheet for the run from the **MOLECULAR LAB ONLY/NYU-MyeloSeqer/Worksheets-Wetlab** folder
-2. drop the worksheet to the **worksheet.dropoffs** subfolder under the IonTorrent folder on the Molecular shared drive
-3. kickstart the workflow to generate QC plots/reports, to filter and select confident calls, and to save variants in a csv and xlsx formats
-4. copy CSV and dropout reports to the **MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data**
+1. create a new folder in **/Molecular/IonTorrent/myeloseqer_test/amplicon.dropout.dropoff** folder for the run.
+2. copy basecall QC matrix files from **/MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data** to **amplicon.dropout.dropoff**
+3. get a copy of the myeloseq worksheet for the run from the **MOLECULAR LAB ONLY/NYU-MyeloSeqer/Worksheets-Wetlab** folder
+4. drop the worksheet to the **worksheet.dropoffs** subfolder under the IonTorrent folder on the Molecular shared drive
+5. kickstart the workflow to generate QC plots/reports, to filter and select confident calls, and to save variants in a csv and xlsx formats
+6. copy CSV and dropout reports to the **/MOLECULAR LAB ONLY/NYU-MyeloSeqer/Patient data**
