@@ -1,5 +1,5 @@
-# A Short Guide to Oncomine Automation
-## Objective
+# User Guide to Oncomine Automation
+## Workflow from run initiation to review of annotated variants
 * Annotate variants from oncomine annotator
 * Focus on variants of interest
 * Visualize and interpret variants
