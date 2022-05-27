@@ -61,10 +61,11 @@ to select confident calls, and to save filtered variants in a csv and excel form
 
 ## 1. Oncomine Solid
 
-1. log into the ionreporter server as an admin user via HPC
-2. go to the **ion_report** directory
-3. complete steps 1 ~ 3 in the auto report section
-4. execute ion_runner.py
+1. ssh to bigpurple with your Kerberos ID
+2. log into the ionreporter server as an admin user
+3. go to the **ion_report** directory
+4. complete steps 1 ~ 3 in the auto report section
+5. execute ion_runner.py
 ```
 ssh ionadmin@ionreporter.nyumc.org
 cd /home/ionadmin/ion_report
@@ -73,10 +74,11 @@ python3 ion_runner.py /mnt/Z_drive/Molecular/IonTorrent/oncosolid_autoreport/wor
 
 ## 2. MyeloSeq
 
-1. log into the ionreporter server as an admin user via HPC
-2. go to the **myeloseq_report** directory
-3. complete steps 1 ~ 3 in the auto report section
-4. execute myelo_runner.py
+1. ssh to bigpurple with your Kerberos ID
+2. log into the ionreporter server as an admin user
+3. go to the **myeloseq_report** directory
+4. complete steps 1 ~ 3 in the auto report section
+5. execute myelo_runner.py
 ```
 ssh ionadmin@ionreporter.nyumc.org
 cd /home/ionadmin/myeloseq_report
@@ -86,9 +88,10 @@ python3 myelo_runner.py /mnt/Z_drive/Molecular/IonTorrent/myeloseqer_test/worksh
 ## Maintaining automated workflow
 
 ## 1. ion_report workflow
-1. log into the ionreporter server as an admin user via HPC
-2. change to the ion_report directory
-3. start or stop the ion_watchdog daemon process
+1. ssh to bigpurple with your Kerberos ID
+2. log into the ionreporter server as an admin user
+3. change to the ion_report directory
+4. start or stop the ion_watchdog daemon process
 ```
 ssh ionadmin@ionreporter.nyumc.org
 cd /home/ionadmin/myeloseq_report
@@ -96,9 +99,10 @@ sh ion_watchdog.sh start [stop]
 ```
 
 ## 2. myelo_report workflow
-1. log into the ionreporter server as an admin user via HPC
-2. change to the myeloseq_report directory
-3. start or stop the myelo_watchdog daemon process
+1. ssh to bigpurple with your Kerberos ID
+2. log into the ionreporter server as an admin user
+3. change to the myeloseq_report directory
+4. start or stop the myelo_watchdog daemon process
 ```
 ssh ionadmin@ionreporter.nyumc.org
 cd /home/ionadmin/myeloseq_report
