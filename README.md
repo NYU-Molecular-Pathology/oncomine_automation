@@ -92,7 +92,7 @@ python3 myelo_runner.py /mnt/Z_drive/Molecular/IonTorrent/myeloseqer_test/worksh
 ```
 ssh ionadmin@ionreporter.nyumc.org
 cd /home/ionadmin/myeloseq_report
-sh io_watchdog.sh start [stop]
+sh ion_watchdog.sh start [stop]
 ```
 
 ## 2. myelo_report workflow
