@@ -11,7 +11,7 @@ Python is a high-level, interpreted, general-purpose programming language. It is
 ## 2. [watchdog](https://pypi.org/project/watchdog/)
 Python API library and shell utilities to monitor file system events.
 ## 3.  [ion_automation](https://github.com/khzhu/ion_automation)
-The automated workflow to generate quality control plots/reports and select variants from Oncomine Focus and Myeloid Assay NGS sequencing data.
+An in-house automated workflow to generate quality control plots/reports and select variants from Oncomine Focus and Myeloid Assay NGS sequencing data.
 
 ## Workflow Diagram
 ![This is a flowchart](https://github.com/khzhu/ion_automation/blob/main/docs/oncomine-workflow.png)
